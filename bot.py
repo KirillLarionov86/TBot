@@ -1,3 +1,5 @@
+from telegram import Update
+from telegram.ext import ContextTypes
 import os
 import json
 from oauth2client.service_account import ServiceAccountCredentials
