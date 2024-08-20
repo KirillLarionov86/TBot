@@ -328,7 +328,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         context.user_data['awaiting_comment'] = False
 
 # Создаем приложение
-application = Application.builder().token("7432281200:AAHghYwBEpSpDMPM0HUzTNpIWFM9nmQEJyQ").build()
+application = Application.builder().token("7432281200:AAHOlKfslVHds5l3bN39CGl6ElBDt3U89pU").build()
 
 application.add_handler(CommandHandler('start', start))
 application.add_handler(CallbackQueryHandler(button))
